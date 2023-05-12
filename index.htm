@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+		function myHref(){
+			document.getElementById('myAnchor').innerText="Visit W#Schools";
+			document.getElementById('myAnchor').href="http://www.w3.schools.com";
+			document.getElementById('par1').innerText = "If you don't understand you could fail";
+
+			alert('You just clicked a button');
+		}
+	</script>
+</head>
+<body>
+      <a title="click to visit the webite" id="myAnchor" href="http://www.microsoft.com">Visit Microsoft</a>
+      <form>
+      	<input type="button" onclick="myHref();" value="Change URL and text">
+      </form>
+</body>
+</html>
